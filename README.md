@@ -3,7 +3,7 @@
 - Get the latest release - https://github.com/jdayamx/twitch_minecraft_bot/releases/latest
 - Install module `pip install mcrcon`
 - configure file config.json
-`
+```
 {
   "twitch": {
     "nickname": "Your nickname here",
@@ -17,5 +17,5 @@
     "command_template": "title @a actionbar {\"text\":\"{user} says: {message}\", \"color\":\"green\"}"
   }
 }
-`
+```
 - run bot `python twitch_bot.py`
