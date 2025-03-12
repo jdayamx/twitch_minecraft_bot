@@ -1,0 +1,13 @@
+{
+  "twitch": {
+    "nickname": "Nick",
+    "token": "oauth:ACCESS_TOKEN",
+    "channel": "Channel"
+  },
+  "rcon": {
+    "host": "IP ADDRESS",
+    "port": 25575,
+    "password": "PASSWORD",
+    "command_template": "title @a actionbar {\"text\":\"{user} каже: {message}\", \"color\":\"green\"}"
+  }
+}
