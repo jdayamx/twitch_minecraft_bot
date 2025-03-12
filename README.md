@@ -7,7 +7,7 @@
 {
   "twitch": {
     "nickname": "Your nickname here",
-    "token": "oauth:Your token here",
+    "token": "oauth:Your ACCESS TOKEN here",
     "channel": "Your channel here"
   },
   "rcon": {
@@ -19,3 +19,8 @@
 }
 ```
 - run bot `python twitch_bot.py`
+### Get Auth tiken
+- Visit https://twitchtokengenerator.com/
+- enable chat:read button
+- click on "Generate Token!"
+- copy "ACCESS TOKEN" to config.json file
