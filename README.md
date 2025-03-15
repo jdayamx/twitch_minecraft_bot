@@ -1,4 +1,15 @@
 # Twitch-Minecraft bot
+### Installation python for Windows
+- Download python https://www.python.org/downloads/windows/
+- Instal python in directory `C:\python` use custom installation case
+- Run `Win + R` and type `cmd` after type `cd C:\python`
+- Run command `python.exe -m pip install --upgrade pip`
+- Run command `python.exe -m pip install mcrcon`
+- Download and unpack twitchbot as sample in `C:\python\twitch_minecraft_bot-start`
+- Run command `cd C:\python\twitch_minecraft_bot-start`
+- Make all configuration in `config.json`
+- Run bot `C:\python\python.exe twitch_bot.py`
+
 ### Installation
 - Get the latest release - https://github.com/jdayamx/twitch_minecraft_bot/releases/latest
 - Install module `pip install mcrcon`
