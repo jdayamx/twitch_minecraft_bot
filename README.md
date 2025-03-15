@@ -1,7 +1,7 @@
 # Twitch-Minecraft bot
 ### Installation python for Windows
 - Download python https://www.python.org/downloads/windows/
-- Instal python in directory `C:\python` use custom installation case
+- Install python in directory `C:\python` use custom installation case
 - Run `Win + R` and type `cmd` after type `cd C:\python`
 - Run command `python.exe -m pip install --upgrade pip`
 - Run command `python.exe -m pip install mcrcon`
