@@ -35,3 +35,8 @@
 - enable chat:read button
 - click on "Generate Token!"
 - copy "ACCESS TOKEN" to config.json file
+
+### Compilation
+For create a compile version you need:
+- linux  `pip install pyinstaller` and make dist `pyinstaller --onefile twitch_bot.py`
+- windows `C:\Python\python.exe -m pip install pyinstaller` and make dist `C:\Python\Scripts\pyinstaller.exe --onefile twitch_bot.py`
