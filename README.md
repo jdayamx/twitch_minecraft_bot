@@ -41,3 +41,6 @@ For create a compile version you need:
 - linux  `pip install pyinstaller` and make dist `pyinstaller --onefile twitch_bot.py`
 - windows `C:\Python\python.exe -m pip install pyinstaller` and make dist `C:\Python\Scripts\pyinstaller.exe --onefile twitch_bot.py`
 File created in subdirectory dist, copy file from dist folder to main folder near `twitch_bot.py`.
+
+### Command sample
+- Spawn zombie `execute as @a at @s run summon minecraft:zombie ~ ~ ~ {CustomName:\"{user}\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}` put in your config  "command_template": "COMMAND_HERE"
