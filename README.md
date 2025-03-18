@@ -43,4 +43,5 @@ For create a compile version you need:
 File created in subdirectory dist, copy file from dist folder to main folder near `twitch_bot.py`.
 
 ### Command sample
-- Spawn zombie `execute as @a at @s run summon minecraft:zombie ~ ~ ~ {CustomName:\"{user}\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}` put in your config  "command_template": "COMMAND_HERE"
+- Spawn zombie `execute as @a at @s run summon minecraft:zombie ~ ~ ~ {CustomName:\"\\\"{user}\\\"\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}` put in your config  "command_template": "COMMAND_HERE"
+- Spawn bee `execute as @a at @s run summon minecraft:bee ~ ~ ~ {CustomName:\"\\\"{user}\\\"\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}`
