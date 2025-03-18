@@ -1,4 +1,8 @@
 # Twitch-Minecraft bot
+### Runs
+- You can run bot in windows use `twitch_bot.exe` or linux run `./twitch_bot`
+- Before run, make configure `config.json` 
+
 ### Installation python for Windows
 - Download python https://www.python.org/downloads/windows/
 - Install python in directory `C:\python` use custom installation case
