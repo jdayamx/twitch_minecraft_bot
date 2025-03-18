@@ -6,7 +6,7 @@ from mcrcon import MCRcon
 
 # Завантаження налаштувань з файлу config.json
 def load_config():
-    with open("config.json", "r") as file:
+    with open("config.json", "r", encoding="utf-8") as file:
         return json.load(file)
 
 config = load_config()
@@ -26,7 +26,8 @@ RCON_COMMAND_TEMPLATE = config['rcon']['command_template']
 
 def send_rcon_command(command):
     try:
-        with MCRcon(MINECRAFT_RCON_HOST, MINECRAFT_RCON_PASSWORD) as mcr:
+        command = command.encode("utf-8").decode("utf-8")
+        with MCRcon(MINECRAFT_RCON_HOST, MINECRAFT_RCON_PASSWORD, port=MINECRAFT_RCON_PORT) as mcr:
             response = mcr.command(command)
             print(f"RCON Response: {response}")
     except Exception as e:
