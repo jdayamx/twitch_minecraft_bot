@@ -46,4 +46,5 @@ File created in subdirectory dist, copy file from dist folder to main folder nea
 - Spawn zombie `execute as @a at @s run summon minecraft:zombie ~ ~ ~ {CustomName:\"\\\"{user}\\\"\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}`
 - Spawn bee `execute as @a at @s run summon minecraft:bee ~ ~ ~ {CustomName:\"\\\"{user}\\\"\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}`
 
-put in your config  "command_template": "COMMAND_HERE"
+Put in your config  `"command_template": "COMMAND_HERE"` 
+You can add separator `;` and use meny commands like `"command_template": "COMMAND_1_HERE; COMMAND_2_HERE; COMMAND_3_HERE" `
