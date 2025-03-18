@@ -28,8 +28,12 @@ def send_rcon_command(command):
     try:
         command = command.encode("utf-8").decode("utf-8")
         with MCRcon(MINECRAFT_RCON_HOST, MINECRAFT_RCON_PASSWORD, port=MINECRAFT_RCON_PORT) as mcr:
-            response = mcr.command(command)
-            print(f"RCON Response: {response}")
+            commands = command.split(";")  # Розділення команд за `;`
+            for cmd in commands:
+                cmd = cmd.strip()
+                if cmd:
+                    response = mcr.command(cmd)
+                    print(f"RCON Response: {response}")
     except Exception as e:
         print(f"RCON Error: {e}")
 
