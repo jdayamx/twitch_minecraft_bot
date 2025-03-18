@@ -45,6 +45,7 @@ File created in subdirectory dist, copy file from dist folder to main folder nea
 ### Command sample
 - Spawn zombie `execute as @a at @s run summon minecraft:zombie ~ ~ ~ {CustomName:\"\\\"{user}\\\"\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}`
 - Spawn bee `execute as @a at @s run summon minecraft:bee ~ ~ ~ {CustomName:\"\\\"{user}\\\"\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}]}`
+- multiple commands sample, spawn bee and print text `execute as @a at @s run summon minecraft:bee ~ ~ ~ {CustomName:\"{\\\"text\\\":\\\"{user}\\\", \\\"color\\\":\\\"blue\\\"}\",CustomNameVisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:leather_helmet\",Count:1b}],Tags:[\"AngryBee\"],Anger:99999,Size:0.5,Attributes:[{Name:\"minecraft:generic.movement_speed\",Base:0.5}],OnFire:0,Tags:[\"AggressiveBee\"],NoAI:0}; title @a actionbar {\"text\":\"{user} каже: {message}\", \"color\":\"green\"}`
 
 Put in your config  `"command_template": "COMMAND_HERE"` 
 You can add separator `;` and use meny commands like `"command_template": "COMMAND_1_HERE; COMMAND_2_HERE; COMMAND_3_HERE" `
