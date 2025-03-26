@@ -34,7 +34,7 @@
 }
 ```
 - run bot `python twitch_bot.py`
-### Get Auth tiken
+### Get Auth TOKEN
 - Visit https://twitchtokengenerator.com/
 - enable chat:read button
 - click on "Generate Token!"
